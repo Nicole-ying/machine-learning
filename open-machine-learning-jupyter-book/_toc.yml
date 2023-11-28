@@ -52,6 +52,7 @@ parts:
   chapters:
   - file: ml-fundamentals/ml-overview.ipynb
   - file: ml-fundamentals/ml-summary.ipynb
+  - file: ml-fundamentals/build-a-web-app-to-use-a-machine-learning-model.ipynb
   - file: ml-fundamentals/regression/regression-models-for-machine-learning
     sections:
     - file: ml-fundamentals/regression/tools-of-the-trade
@@ -64,10 +65,10 @@ parts:
     - file: ml-fundamentals/classification/more-classifiers
     - file: ml-fundamentals/classification/yet-other-classifiers
     - file: ml-fundamentals/classification/applied-ml-build-a-web-app
-  - file: ml-fundamentals/parameter-optimization/gradient-descent.ipynb
+  - file: ml-fundamentals/parameter-optimization/parameter-optimization.ipynb
     sections:
     - file: ml-fundamentals/parameter-optimization/loss-function.ipynb
-    - file: ml-fundamentals/parameter-optimization/parameter-optimization.ipynb
+    - file: ml-fundamentals/parameter-optimization/gradient-descent.ipynb
 - caption: ADVANCED MACHINE LEARNING
   numbered: True
   chapters:
@@ -86,8 +87,10 @@ parts:
     - file: ml-advanced/gradient-boosting/gradient-boosting-example.ipynb
     - file: ml-advanced/gradient-boosting/xgboost.ipynb
     - file: ml-advanced/gradient-boosting/xgboost-k-fold-cv-feature-importance.ipynb
-  - file: ml-advanced/unsupervised-learning
-  - file: ml-advanced/model-selection
+  - file: ml-advanced/kernel-method.ipynb
+  - file: ml-advanced/unsupervised-learning.ipynb
+  - file: ml-advanced/unsupervised-learning-pca-and-clustering.ipynb
+  - file: ml-advanced/model-selection.ipynb
 - caption: DEEP LEARNING
   numbered: True
   chapters:
